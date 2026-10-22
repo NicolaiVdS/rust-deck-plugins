@@ -1,0 +1,7 @@
+name = "Clock"
+run = ["node", "main.js"]
+
+[actions.time]
+name = "Time"
+[actions.time.settings]
+seconds = { type = "bool", default = false }

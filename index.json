@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "clock",
+      "name": "Clock",
+      "description": "The time on a key; press it to show the seconds.",
+      "author": "Nicolai Van der Storm",
+      "homepage": "https://github.com/NicolaiVdS/rust-deck-plugins/tree/main/plugins/clock",
+      "version": "1.0.0",
+      "platforms": ["linux", "windows", "macos"],
+      "needs": ["node"],
+      "download": {
+        "url": "https://raw.githubusercontent.com/NicolaiVdS/rust-deck-plugins/main/zips/clock-1.0.0.zip",
+        "sha256": "d0f8e5f81f4bba3e4bcbec1e6b9a8a4c6509a1e722f9dbb28c3f6aebd874f062",
+        "size": 1931
+      }
+    }
+  ]
+}
